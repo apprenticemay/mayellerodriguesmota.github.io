@@ -1,0 +1,98 @@
+/* Estilos Globais */
+
+/*estilo do corpo do texto: fonte,margem, espaçamento*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*estilo do cabeçalho: cor de fundo, alinhamento, espaçamento*/
+header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+ 
+header { 
+    top: 0px; 
+} 
+
+/*estilo do rodapé*/
+footer { 
+    bottom: 0px; 
+} 
+
+/*estilo da lista não ordenada*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*estilo da lista ordenada*/
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/*estilo de lista ordenada: cor*/
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/*estilo da seção: espaçamento*/
+section {
+    padding: 20px;
+}
+
+/*estilo do rodapé: cor de fundo, letra, alinhamento e espaçamento*/
+footer {
+    background-color: #333;
+    color: #ebe4ea;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos específicos para formulário de contato */
+
+/*configuração de formulário*/
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/*configuração dos rótulos e input do formulário*/
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/*estilo do botão: cor de fundo, cor, bordar, cursor, alinhamento*/
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*justificar os textos dos parágrafos*/
+#sobre,#formacao,#portfolio,#contato {
+    text-align: justify;
+}
+
+/*Estilo específico para imagem*/ 
+
+img {
+    width:300px;
+    height:450px;
+    float: left;
+    border: transparent thin solid;
+    border-radius: 20%;
+    padding: 5px;
+    margin: 50px 5px 5px 0;
+    max-width: 500px;
+}
